@@ -17,6 +17,11 @@ La implementación PAR de un SdCM tiene como objetivo poner una cantidad de dine
 
 #### Por qué dar crédito?
 Dar crédito significa que un miembro decide incorporar al sistema a proveedores y consumidores otorgándoles un descubierto.
+Hay dos formas de hacerlo:
+1. El administrador o quien tiene derecho a dar crédito le asigna el mismo a un nuevo miembro. El administrador indica monto y el nuevo miembro no realiza ninguna acción.
+2. El administrador o quien tiene derecho a dar crédito autoriza a un potencial miembro a que solicite un crédito. En la autorización se determina el monto del crédito. Se requiere la acción del nuevo miembro para acceder al crédito
+
+En la segunda opción hay un ida y vuelta de mensajes que determinan la participación y compromiso del potencial miembro, y determina también una especie de _Accept Terms and Conditions_.
 
 ##### Cómo se emite?
 Cuando un nuevo miembro se suma al sistema se le asigna un descubierto o crédito. Es la manera primaria en que se emite en el sistema: con el ingreso de un nuevo miembro. 
@@ -50,7 +55,7 @@ Si 1 resulta satisfactorio, pero en el período realizó solo 1 TX por 5 pesos, 
 3. Rates
 La comunidad se vota entre sí en cada interacción económica. El rate se tendrá en cuenta para computar la performance final.
 
-> El período esinicialmente un mes calendario.
+> El período es por configuración inicial un mes calendario.
 
 ### Parámetros del sistema
 ##### demurrage
